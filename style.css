@@ -1,0 +1,23 @@
+ : :root {
+    --cinza:#aaa;
+    --vermelho: #f16868;
+    --vermelho-escuro: #cb0e0e;
+    --branca: #eeebeb; 
+    --luz: #dd2edd;
+ }
+
+ body{
+    background-color: var (--vermelho);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+
+ }
+ 
+ h1{ 
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--branca);
+ }
